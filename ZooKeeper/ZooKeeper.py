@@ -122,6 +122,7 @@ It looks like we will soon have more rabbits!"""
 animals = [camel, lion, deer, goose, bat, rabbit]
 
 print("Please enter the number of the habitat you would like to view: ")
+print("Enter 'exit' to break.")
 
 while True:
     x = input() # input is accepted as string for later use of "exit" to stop program
